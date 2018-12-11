@@ -6,6 +6,11 @@ TagManager:
   tags:
   - ComandC
   - Ground
+  - UnidadRec
+  - Mineral
+  - Gas
+  - Comand
+  - RCar
   layers:
   - Default
   - TransparentFX

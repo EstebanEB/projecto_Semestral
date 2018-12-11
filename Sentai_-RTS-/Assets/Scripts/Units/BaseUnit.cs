@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class BaseUnit : MonoBehaviour {
+public abstract class BaseUnit : MonoBehaviour 
+{
 
     public NavMeshAgent Unidad;
 
@@ -16,7 +17,7 @@ public class BaseUnit : MonoBehaviour {
     {
 
     }
-
+  
     public void Mover()
     {
         if (Input.GetMouseButtonDown(1)) //para saber cuando el jugador da click

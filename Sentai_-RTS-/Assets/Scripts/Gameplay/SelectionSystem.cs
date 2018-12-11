@@ -98,7 +98,7 @@ public class SelectionSystem : MonoBehaviour
 
     void ClearListSelection()
     {
-        UnitSelected unnidadSeleccionada = GetComponent<UnitSelected>();
+        //UnitSelected unnidadSeleccionada = GetComponent<UnitSelected>();
         foreach (GameObject unidad in currentSelected)
         {
             unidad.GetComponent<UnitSelected>().isSelected = false;
